@@ -100,7 +100,7 @@ export const DashSidebar = () => {
                     {
                         currentUser.isAdmin && (
                             <>
-                                <Link to='dashboard?tab=users'>
+                                <Link to='/dashboard?tab=users'>
                                     <SidebarItem
                                         active={tab === 'users'}
                                         icon={HiOutlineUserGroup}
