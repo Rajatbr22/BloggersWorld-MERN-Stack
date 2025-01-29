@@ -210,7 +210,9 @@ import 'react-quill/dist/quill.snow.css';
             'Content-Type': 'application/json',
             },
             body: JSON.stringify(formData),
+            
         });
+        // console.log(formData._id);
         const data = await res.json();
         if (!res.ok) {
             setPublishError(data.message);
