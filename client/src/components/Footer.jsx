@@ -24,7 +24,7 @@ export const FooterCompo = () => {
                                 <FooterTitle title="About"/>
                                 <FooterLinkGroup col>
                                     <FooterLink
-                                        href="https://www.100jsprojects.com"
+                                        href="#"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -32,7 +32,7 @@ export const FooterCompo = () => {
                                     </FooterLink>
 
                                     <FooterLink
-                                        href="https://www.100jsprojects.com"
+                                        href="#"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -47,7 +47,7 @@ export const FooterCompo = () => {
                                 <FooterTitle title="Follow Us"/>
                                 <FooterLinkGroup col>
                                     <FooterLink
-                                        href="https://www.100jsprojects.com"
+                                        href="#"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -55,7 +55,7 @@ export const FooterCompo = () => {
                                     </FooterLink>
 
                                     <FooterLink
-                                        href="https://www.100jsprojects.com"
+                                        href="#"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -70,7 +70,7 @@ export const FooterCompo = () => {
                                 <FooterTitle title="Legal"/>
                                 <FooterLinkGroup col>
                                     <FooterLink
-                                        href="https://www.100jsprojects.com"
+                                        href="#"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -78,7 +78,7 @@ export const FooterCompo = () => {
                                     </FooterLink>
 
                                     <FooterLink
-                                        href="https://www.100jsprojects.com"
+                                        href="#"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

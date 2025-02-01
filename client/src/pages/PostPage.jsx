@@ -12,6 +12,8 @@ export default function PostPage() {
     const [error, setError] = useState(false)
     const [post, setPost] = useState(null)
     const [recentPost, setRecentPost] = useState(null)
+    // console.log(post.content);
+    
 
 
     useEffect(() => {
@@ -96,7 +98,9 @@ export default function PostPage() {
             <div
                 className="p-3 max-w-2xl mx-auto w-full post-content"
                 dangerouslySetInnerHTML={{ __html: post && post.content }}
-            ></div>
+            >
+            </div>
+
             <div className='max-w-4xl mx-auto w-full'>
                 <CallToAction />
             </div>
@@ -104,7 +108,7 @@ export default function PostPage() {
             <CommentSection postId={post._id}/>
 
             <div className='flex flex-col justify-center items-center mb-5'>
-            <h1 className='text-xl mt-5'>Recent articles</h1>
+                <h1 className='text-xl mt-5'>Recent articles</h1>
                 <div className='flex flex-wrap gap-5 mt-5 justify-center'>
                     {recentPost &&
                     recentPost.map((post) => <PostCard key={post._id} post={post}/>) }
